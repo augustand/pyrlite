@@ -9,7 +9,7 @@ from multiprocessing import TimeoutError
 
 import hirlite
 
-from data_model.plugins.third_party._compat import iteritems, iterkeys, itervalues
+from _compat import iteritems, iterkeys, itervalues
 
 
 def list_or_args(keys, args):
